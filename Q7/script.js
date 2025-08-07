@@ -1,6 +1,6 @@
-function CreateElement(){
-    const newElement=document.createElement("div");
-    newElement.textContent="Add an element from Js";
-    document.body.appendChild(newElement)
+function createElement(){
+    let div=document.createElement("div");
+    div.append("This is a new Div")
+    document.body.append(div)
 }
- CreateElement()
+ createElement();

@@ -1,8 +1,8 @@
-let button=document.getElementById("btn");
+let button=document.getElementById("btn")
 
-button.onclick=function(){
-    button.style.width="70px";
-}
+button.addEventListener("click",function(){
+    button.style.fontSize="30px";
+})
 button.addEventListener("mouseenter",function(){
-    button.style.backgroundColor="Red";
+    button.style.backgroundColor="red";
 })

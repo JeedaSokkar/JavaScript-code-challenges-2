@@ -1,6 +1,8 @@
-let button=document.getElementById("btn");
-let ChangeP=document.getElementById("par");
+function changesContent(){
+let button=document.getElementById("btn")
+let p=document.getElementById("par")
 
-button.onclick=function(){
-    ChangeP.textContent="Write a function that changes the text content of a paragraph whena button is clicked."
-}
+button.addEventListener("click",function(){
+    p.textContent="Write a function that changes the text content of a paragraph whena button is clicked."
+})}
+changesContent()

@@ -1,9 +1,12 @@
 
-function change(){
-    let element=document.getElementById("Item");
+function changeText() {
+    const listItems = document.querySelectorAll("li");
 
-    if(element && element.parentElement){
-    element.parentElement.textContent="Update the text";
-    }
+    listItems.forEach(li => {
+        if (li.textContent.trim() === "Item") {
+            // Change the parent element's textContent
+            li.parentElement.textContent = "Updated item 2";
+        }
+    });
 }
-change()
+changeText()

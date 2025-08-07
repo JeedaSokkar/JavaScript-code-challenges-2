@@ -1,4 +1,5 @@
-let button=document.getElementById("btn");
-button.onclick=function(){
-  console.log("Click the button");
-}
+
+let button=document.getElementById("btn")
+button.addEventListener("click",function(){
+ console.log("click button")   
+})

@@ -1,7 +1,6 @@
-
-function addImg(){
-    let element=document.createElement("img");
-    element.src="Image.jpg";
-    document.body.appendChild(element);
+function createImg(){
+    let img=document.createElement("img")
+    img.src="Image.jpg";
+    document.body.append(img)
 }
-addImg();
+ createImg()

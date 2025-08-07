@@ -1,3 +1,3 @@
-let TitleQ=document.getElementById("Title");
 
-console.log(TitleQ);
+let element=document.getElementById("title");
+console.log(element)

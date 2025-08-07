@@ -1,3 +1,2 @@
-let ChangeTitle=document.getElementById("Title");
-
-ChangeTitle.textContent="Hello, JavaScript!";
+let element=document.getElementById("subTitle")
+element.textContent="Hello, JavaScript!"

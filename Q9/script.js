@@ -1,5 +1,9 @@
-let button=document.getElementById("btn");
-let element=document.getElementById("Title")
-button.onclick =function(){
-    element.style.fontSize="90px";
+function changeSize(){
+    let button=document.getElementById("btn");
+let h1=document.getElementById("title");
+   button.onclick=function(){
+    h1.style.fontSize="50px"
+    }
 }
+    
+changeSize()
